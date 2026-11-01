@@ -1,0 +1,5 @@
+{
+  "summary":  "Script Python completo e autocontido (FastAPI + SQLite WAL + Interface Desktop PyWebView) para executar o Sistema de Gerenciamento de Biblioteca localmente em qualquer notebook Linux, Windows ou Mac. Inclui banco SQLite local, regras de negócio de atraso/bloqueio, rotas de API e interface integrada.",
+  "updatedAt":  "2026-10-26T20:49:42.807667997Z",
+  "userFacing":  true
+}

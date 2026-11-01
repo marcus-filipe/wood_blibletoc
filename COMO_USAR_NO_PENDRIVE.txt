@@ -1,0 +1,48 @@
+================================================================================
+GUIA RÁPIDO: SISTEMA DE BIBLIOTECA NO PENDRIVE
+================================================================================
+
+Este pacote contém o Sistema de Biblioteca completo, incluindo o binário executável
+nativo Linux compilado (PyInstaller + WebKit2GTK + FastAPI + SQLite WAL).
+
+Arquivos pesados e voláteis de desenvolvimento (.venv, node_modules, cache) foram
+removidos para garantir máxima portabilidade e evitar corrupção de caminhos absolutos.
+
+--------------------------------------------------------------------------------
+OPÇÃO 1: EXECUTAR DIRETAMENTE DO PENDRIVE (PORTÁTIL)
+--------------------------------------------------------------------------------
+1. Conecte o pendrive no computador Linux (Ubuntu, Debian, Linux Mint, etc.).
+2. Abra um terminal na pasta do pendrive e execute:
+
+   bash iniciar_biblioteca.sh
+
+   * O banco de dados SQLite e backups serão salvos na pasta 'dados_biblioteca'
+     dentro do próprio pendrive. Assim, todos os livros e empréstimos viajam com você!
+
+--------------------------------------------------------------------------------
+OPÇÃO 2: INSTALAR PERMANENTEMENTE NO COMPUTADOR DE DESTINO
+--------------------------------------------------------------------------------
+Se você quiser instalar o aplicativo no computador com ícone na área de trabalho
+e comando global no terminal:
+
+1. Abra o terminal na pasta do pendrive e execute:
+
+   sudo bash desktop/build/install.sh
+
+2. O sistema instalará:
+   - Executável em: /opt/biblioteca/biblioteca
+   - Atalho no menu do sistema: /usr/share/applications/biblioteca.desktop
+   - Comando direto no terminal: biblioteca
+   - Banco de dados em: ~/.local/share/biblioteca/biblioteca.db
+
+--------------------------------------------------------------------------------
+DEPENDÊNCIAS DO SISTEMA OPERACIONAL (SE NECESSÁRIO)
+--------------------------------------------------------------------------------
+Em sistemas Debian/Ubuntu/Mint padrão, bibliotecas GTK e WebKit já costumam vir
+instaladas. Caso a janela nativa GTK não abra em um computador muito enxuto:
+
+   sudo apt update
+   sudo apt install -y python3-gi gir1.2-gtk-3.0 gir1.2-webkit2-4.1 libgirepository1.0-dev
+
+(Mesmo sem WebKit nativo, o sistema abre automaticamente em modo Chrome/Navegador).
+================================================================================

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Biblioteca
+Comment=Sistema de gerenciamento de biblioteca
+Exec=/opt/biblioteca/biblioteca
+Icon=/opt/biblioteca/icone.png
+Terminal=false
+Categories=Office;Education;
+StartupWMClass=Sistema de Biblioteca

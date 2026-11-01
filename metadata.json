@@ -1,0 +1,6 @@
+{
+  "name": "Sistema de Biblioteca",
+  "description": "Sistema de gerenciamento de biblioteca de porte médio: acervo, leitores, balcão de empréstimo/devolução com regras de atraso, relatórios estatísticos e backup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

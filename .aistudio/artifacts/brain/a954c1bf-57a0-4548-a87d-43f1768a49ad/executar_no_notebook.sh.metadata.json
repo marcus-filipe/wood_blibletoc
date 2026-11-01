@@ -1,0 +1,5 @@
+{
+  "summary":  "Script em Bash automatizado para instalar dependências Python e iniciar a aplicação desktop no notebook com um único comando (Linux/Mac/WSL).",
+  "updatedAt":  "2026-10-26T20:49:53.538558117Z",
+  "userFacing":  true
+}

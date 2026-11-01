@@ -1,0 +1,6 @@
+titulo;autor;editora;ano;isbn;categoria;tipo_material;codigo_barras
+"O Alienista";"Machado de Assis";"Garnier";1882;"978-8572329382";"Literatura Brasileira";"livro";"TOMBO-5010"
+"Clean Code: A Handbook of Agile Software Craftsmanship";"Robert C. Martin";"Prentice Hall";2008;"978-0132350884";"Computação";"livro";"TOMBO-5020"
+"Design Patterns: Elements of Reusable Object-Oriented Software";"Erich Gamma, Richard Helm";"Addison-Wesley";1994;"978-0201633610";"Computação";"livro";"TOMBO-5030"
+"Revista Brasileira de Ensino de Física";"Sociedade Brasileira de Física";"SBF";2024;"1806-9126";"Periódico Científico";"periodico";"TOMBO-5040"
+"Documentário: Vida e Obra de Ada Lovelace";"BBC Science";"BBC";2021;"DVD-ADA-01";"História da Ciência";"midia";"TOMBO-5050"

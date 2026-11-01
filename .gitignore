@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Builds e Distribuição
+build/
+dist/
+*.spec.bak
+
+# Ambientes e Logs
+.env*
+!.env.example
+*.log
+coverage/
+.pytest_cache/
+.DS_Store
+
+# Dados locais
+.local/
